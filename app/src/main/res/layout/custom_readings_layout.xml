@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_25sdp"
+    android:layout_marginStart="@dimen/_8sdp"
+    android:layout_marginTop="@dimen/_1sdp"
+    android:layout_marginEnd="@dimen/_8sdp"
+    android:layout_marginBottom="@dimen/_1sdp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.5"
+            android:fontFamily="@font/open_sans_semibold"
+            android:gravity="center"
+            android:layout_marginEnd="@dimen/_1sdp"
+            android:id="@+id/timestamp_tv"
+            android:text="2023/03/18 01:30:60"
+            android:textColor="@color/black"
+           />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_marginStart="@dimen/_1sdp"
+            android:fontFamily="@font/open_sans_semibold"
+            android:gravity="center"
+            android:text="30.20"
+            android:id="@+id/temperature_tv"
+            android:textColor="@color/black"
+
+            />
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

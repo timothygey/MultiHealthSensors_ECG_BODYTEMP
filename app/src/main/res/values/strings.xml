@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Multi Health Sensors</string>
+    <string name="welcome">Welcome,</string>
+    <string name="log_in_to_continue">Log in to continue!</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="register_now">Register Now!</string>
+    <string name="still_don_t_have_an_account">Still don\'t have an account?</string>
+    <string name="_3151234567">3151234567</string>
+    <string name="enter_code">Enter the 6-digit code sent to you at</string>
+    <string name="login_with_your_phone_number">Login with your phone number</string>
+
+    <string name="opps">Oops Forgot Your</string>
+    <string name="passwordf">Password?</string>
+    <string name="send">Send</string>
+    <string name="verify">Verify</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="age">Age(Years)</string>
+    <string name="current_medical">Existing Medical Conditions</string>
+    <string name="update_medical_record">Update Medical Record</string>
+    <string name="glucose_monitor">Glucose Monitor</string>
+    <string name="fall_alert">Fall Alert</string>
+    <string name="electrocardiogram_amp_n_heart_rate"><![CDATA[Electrocardiogram &\n Heart Rate]]></string>
+    <string name="heart_rate"><![CDATA[Electrocardiogram & Heart Rate]]></string>
+    <string name="body_temperature">Body Temperature</string>
+    <string name="edit_record">Edit Record</string>
+    <string name="share_information_with_healthhub">Share information with HealthHub?</string>
+    <string name="ecg_reading">ECG Reading</string>
+    <string name="ecg_chart">ECG Chart</string>
+    <string name="average_bpm">Average BPM</string>
+</resources>

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "222896840131",
+    "firebase_url": "https://esp-bodytemp-demo-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "esp-bodytemp-demo",
+    "storage_bucket": "esp-bodytemp-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222896840131:android:a4c04067055ec5526df176",
+        "android_client_info": {
+          "package_name": "com.FYPSensors.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "222896840131-ggqv2j398oje1t2een08ci6gh6j8s304.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcg3xiPhftYxmpSDPmA7XrOsYzJum75bM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "222896840131-ggqv2j398oje1t2een08ci6gh6j8s304.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222896840131:android:e1042b2e146982ef6df176",
+        "android_client_info": {
+          "package_name": "com.fypsensors.multihealthsensors"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "222896840131-ggqv2j398oje1t2een08ci6gh6j8s304.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcg3xiPhftYxmpSDPmA7XrOsYzJum75bM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "222896840131-ggqv2j398oje1t2een08ci6gh6j8s304.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
