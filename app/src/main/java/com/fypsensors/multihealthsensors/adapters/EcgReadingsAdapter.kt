@@ -9,8 +9,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.fypsensors.multihealthsensors.R
 import com.fypsensors.multihealthsensors.databinding.CustomReadingsLayoutBinding
 import com.fypsensors.multihealthsensors.models.EcgReadings
-import com.fypsensors.multihealthsensors.models.Readings
-import java.text.SimpleDateFormat
 import java.util.*
 
 
@@ -35,14 +33,17 @@ class EcgReadingsAdapter(
 
     override fun onBindViewHolder(viewHolder: ViewHolder, i: Int) {
         val readings: EcgReadings = readingsArray[i]
-
         viewHolder.bind(readings)
 
     }
 
     override fun getItemCount(): Int {
 
-        return 30
+        return if (readingsArray.size >= 30) {
+            30
+        } else {
+            readingsArray.size
+        }
 
     }
 

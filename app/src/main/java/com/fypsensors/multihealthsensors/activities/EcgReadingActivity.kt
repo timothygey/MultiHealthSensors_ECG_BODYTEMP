@@ -2,9 +2,7 @@ package com.fypsensors.multihealthsensors.activities
 
 import android.annotation.SuppressLint
 import android.os.Bundle
-import android.util.Log
 import android.view.View
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -41,7 +39,8 @@ class EcgReadingActivity : AppCompatActivity() {
                 override fun onDataChange(snapshot: DataSnapshot) {
                     binding.loading.visibility = View.GONE
                     if (snapshot.exists()) {
-                        binding.bpmTv.text =snapshot.child("BPM").value.toString().toDouble().toString()
+                        binding.bpmTv.text =
+                            String.format("%.2f", snapshot.child("BPM").value.toString().toDouble())
                     }
                 }
 
@@ -77,8 +76,17 @@ class EcgReadingActivity : AppCompatActivity() {
                                 averageArray.add(item.bpm)
                             }
                             val averageReading = averageArray.average()
+
                             binding.averageTv.text = String.format("%.2f", averageReading)
 
+                        } else {
+                            for (i in 0 until readingsArrayList.size) {
+                                val item = readingsArrayList[i]
+                                averageArray.add(item.bpm)
+                            }
+                            val averageReading = averageArray.average()
+
+                            binding.averageTv.text = String.format("%.2f", averageReading)
                         }
                         val mAdapter =
                             EcgReadingsAdapter(this@EcgReadingActivity, readingsArrayList)
