@@ -41,7 +41,12 @@ class ReadingsAdapter(
 
     override fun getItemCount(): Int {
 
-        return 30
+
+        return if (readingsArray.size >= 30) {
+            30
+        } else {
+            readingsArray.size
+        }
 
     }
 
