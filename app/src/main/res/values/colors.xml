@@ -6,9 +6,10 @@
     <color name="purple_700">#C01224</color>
     <color name="teal_200">#C01224</color>
     <color name="teal_700">#C01224</color>
-<!--    <color name="teal_700">#4FB7B4</color>-->
-<!--    <color name="teal_700">#F50091</color>-->
+    <!--    <color name="teal_700">#4FB7B4</color>-->
+    <!--    <color name="teal_700">#F50091</color>-->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="grey">#F2F2F2</color>
+    <color name="yellow">#FFE500</color>
 </resources>

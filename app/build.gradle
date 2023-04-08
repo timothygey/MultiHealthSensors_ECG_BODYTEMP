@@ -53,6 +53,9 @@ dependencies {
     implementation 'com.intuit.sdp:sdp-android:1.1.0'
     implementation 'com.intuit.ssp:ssp-android:1.1.0'
     implementation 'com.airbnb.android:lottie:3.6.0'
+    implementation 'org.tensorflow:tensorflow-lite:2.7.0'
+    implementation 'com.google.firebase:firebase-ml-modeldownloader:24.1.2'
+
 
 //    implementation platform('com.google.firebase:firebase-bom:28.0.1')
 }
